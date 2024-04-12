@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//Initailze all global arrays
 int productID[101];
 string productBrand[101];
 string productName[101];
@@ -10,6 +11,7 @@ double productPrice[101];
 int productCount[101];
 int menuChoice;
 
+//Display the menu options
 void displayMenu() {
     cout << "*** Menu ***" << endl;
     cout << "1. Add a new product" << endl;
@@ -23,6 +25,7 @@ void displayMenu() {
     cout << "9. Quit!" << endl;
 }
 
+//Add new project to the inventory
 void newProduct() {
     int idChoice = 0;
     
@@ -45,6 +48,7 @@ void newProduct() {
     cout << "Enter the count of the product: ";
     cin >> productCount[idChoice];
 
+    //Clear the terminal
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
@@ -52,6 +56,7 @@ void newProduct() {
     #endif
 }
 
+//Update the wholesale price of a product
 void updateWholesale() {
     int idChoice = 0;
     double newWholesalePrice = 0;
@@ -72,6 +77,7 @@ void updateWholesale() {
     cin >> newWholesalePrice;
     productWholesalePrice[idChoice] = newWholesalePrice;
 
+    //Clear the terminal
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
@@ -79,6 +85,7 @@ void updateWholesale() {
     #endif
 }
 
+//Update the sale price of a product
 void updateSale() {
     int idChoice = 0;
     double newSalePrice = 0;
@@ -99,6 +106,7 @@ void updateSale() {
     cin >> newSalePrice;
     productPrice[idChoice] = newSalePrice;
 
+    //Clear the terminal
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
@@ -106,6 +114,7 @@ void updateSale() {
     #endif
 }
 
+//Update the count of a product
 void updateCount() {
     int idChoice = 0;
     int newCount = 0;
@@ -126,6 +135,7 @@ void updateCount() {
     cin >> newCount;
     productCount[idChoice] = newCount;
 
+    //Clear the terminal
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
@@ -133,6 +143,7 @@ void updateCount() {
     #endif
 }
 
+//Calculate the total profit of all products in stock
 void calculateTotal() {
     double total = 0;
 
@@ -145,6 +156,7 @@ void calculateTotal() {
     cin.ignore();
     cin.get();
 
+    //Clear the terminal
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
@@ -152,6 +164,7 @@ void calculateTotal() {
     #endif
 }
 
+//Check for products that are low in stock (<10)
 void checkLow() {
     cout << "The following products are low in stock:" << endl;
     cout << "ID\tBrand\t\tProduct\t\tCount" << endl;
@@ -165,6 +178,7 @@ void checkLow() {
     cin.ignore();
     cin.get();
 
+    //Clear the terminal
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
@@ -172,6 +186,7 @@ void checkLow() {
     #endif
 }
 
+//Remove a product from the inventory
 void removeProduct() {
     int idChoice = 0;
 
@@ -193,6 +208,7 @@ void removeProduct() {
 
     cout << "Remove success!" << endl;
 
+    //Clear the terminal
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
@@ -200,6 +216,7 @@ void removeProduct() {
     #endif
 }
 
+//Display all products in the inventory
 void displayProducts() {
     cout << "ID\tBrand\t\tProduct\t\tCount" << endl;
     for (int i = 0; i < 101; i++) {
@@ -212,6 +229,7 @@ void displayProducts() {
     cin.ignore();
     cin.get();
 
+    //Clear the terminal
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
@@ -219,6 +237,7 @@ void displayProducts() {
     #endif
 }
 
+//Main function
 int main() {
     do {
         displayMenu();
@@ -226,6 +245,7 @@ int main() {
         cout << "Enter choice: ";
         cin >> menuChoice;
 
+        //Clear the terminal
         #ifdef _WIN32
         system("cls") ;
         #elif __APPLE__
@@ -234,9 +254,17 @@ int main() {
 
         if(menuChoice > 9) {
             do {
+                displayMenu();
                 cout << "Invalid choice!" << endl;
                 cout << "Enter choice: ";
                 cin >> menuChoice;
+
+                //Clear the terminal
+                #ifdef _WIN32
+                system("cls") ;
+                #elif __APPLE__
+                system("clear") ;
+                #endif
             } while(menuChoice > 9);
         }
 
