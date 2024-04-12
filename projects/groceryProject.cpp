@@ -268,6 +268,7 @@ int main() {
             } while(menuChoice > 9);
         }
 
+        //Switch case for menu options
         switch (menuChoice) {
             case 1:
                 newProduct();
