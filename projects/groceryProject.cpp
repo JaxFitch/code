@@ -29,24 +29,24 @@ void displayMenu() {
 void newProduct() {
     int idChoice = 0;
     
-    cout << "Please enter ID number 1-100: ";
-    cin >> idChoice;
-    while(idChoice <= 0 || idChoice > 100 || productID[idChoice] != 0) {
+    cout << "Please enter ID number 1-100: "; 
+    cin >> idChoice; //Get the ID number from the user
+    while(idChoice <= 0 || idChoice > 100 || productID[idChoice] != 0) { // check if the ID number is valid
         cout << "Invalid ID number" << endl;
         cout << "Please enter ID number 1-100: ";
         cin >> idChoice;
     }
     productID[idChoice] = idChoice;
     cout << "Enter the brand name: ";
-    cin >> productBrand[idChoice];
+    cin >> productBrand[idChoice]; //Get the brand name from the user
     cout << "Enter the product name: ";
-    cin >> productName[idChoice];
+    cin >> productName[idChoice]; //Get the product name from the user
     cout << "Enter the wholesale price: $";
-    cin >> productWholesalePrice[idChoice];
+    cin >> productWholesalePrice[idChoice]; //Get the wholesale price from the user
     cout << "Enter the sale price: $";
-    cin >> productPrice[idChoice];
+    cin >> productPrice[idChoice]; //Get the sale price from the user
     cout << "Enter the count of the product: ";
-    cin >> productCount[idChoice];
+    cin >> productCount[idChoice]; //Get the count of the product from the user
 
     //Clear the terminal
     #ifdef _WIN32
@@ -62,19 +62,20 @@ void updateWholesale() {
     double newWholesalePrice = 0;
 
     cout << "Please enter an ID: ";
-    cin >> idChoice;
-    if(productID[idChoice] == 0){
+    cin >> idChoice; //Get the ID number from the user
+    if(productID[idChoice] == 0){ //Check if the ID number is valid
         do {
             cout << "Invalid ID number" << endl;
             cout << "Please enter an ID: ";
             cin >> idChoice;
         } while(productID[idChoice] == 0);
     }
+    //Display the product information
     cout << "The brand is " << productBrand[idChoice] << endl;
     cout << "The product is " << productName[idChoice] << endl;
     cout << "The current wholesale price is: $" << productWholesalePrice[idChoice] << endl;
     cout << "Please enter a new price: $";
-    cin >> newWholesalePrice;
+    cin >> newWholesalePrice; //Get the new wholesale price from the user
     productWholesalePrice[idChoice] = newWholesalePrice;
 
     //Clear the terminal
@@ -91,19 +92,20 @@ void updateSale() {
     double newSalePrice = 0;
 
     cout << "Please enter ID: ";
-    cin >> idChoice;
-    if(productID[idChoice] == 0){
+    cin >> idChoice; //Get the ID number from the user
+    if(productID[idChoice] == 0){ //Check if the ID number is valid
         do {
             cout << "Invalid ID number" << endl;
             cout << "Please enter an ID: ";
             cin >> idChoice;
         } while(productID[idChoice] == 0);
     }
+    //Display the product information
     cout << "The brand is " << productBrand[idChoice] << endl;
     cout << "The product is " << productName[idChoice] << endl;
     cout << "The current sale price is: $" << productPrice[idChoice] << endl;
     cout << "Please enter a new price: $";
-    cin >> newSalePrice;
+    cin >> newSalePrice; //Get the new sale price from the user
     productPrice[idChoice] = newSalePrice;
 
     //Clear the terminal
@@ -120,19 +122,20 @@ void updateCount() {
     int newCount = 0;
 
     cout << "Please enter an ID: ";
-    cin >> idChoice;
-    if(productID[idChoice] == 0){
+    cin >> idChoice; //Get the ID number from the user
+    if(productID[idChoice] == 0){ //Check if the ID number is valid
         do {
             cout << "Invalid ID number" << endl;
             cout << "Please enter an ID: ";
-            cin >> idChoice;
+            cin >> idChoice; //Get the ID number from the user
         } while(productID[idChoice] == 0);
     }
+    //Display the product information
     cout << "The brand is " << productBrand[idChoice] << endl;
     cout << "The product is " << productName[idChoice] << endl;
     cout << "The current count is: " << productCount[idChoice] << endl;
     cout << "Please enter a new count number: ";
-    cin >> newCount;
+    cin >> newCount; //Get the new count from the user
     productCount[idChoice] = newCount;
 
     //Clear the terminal
@@ -147,13 +150,16 @@ void updateCount() {
 void calculateTotal() {
     double total = 0;
 
+    //Calculate the total profit
     for (int i = 0; i < 101; i++) {
         total += (productPrice[i] - productWholesalePrice[i]) * productCount[i];
     }
 
+    //Display the total profit
     cout << "The total profit is: $" << total << endl;
+
     cout << "Press enter to EXIT" << endl;
-    cin.ignore();
+    cin.ignore(); //Wait for user to press enter
     cin.get();
 
     //Clear the terminal
@@ -168,6 +174,8 @@ void calculateTotal() {
 void checkLow() {
     cout << "The following products are low in stock:" << endl;
     cout << "ID\tBrand\t\tProduct\t\tCount" << endl;
+
+    //Display products that are low in stock
     for (int i = 0; i < 101; i++) {
         if (productCount[i] < 10 && productID[i] != 0) {
             cout << productID[i] << "\t" << productBrand[i] << "\t\t" << productName[i] << "\t\t" << productCount[i] << endl;
@@ -175,7 +183,7 @@ void checkLow() {
     }
 
     cout << "Press enter to EXIT" << endl;
-    cin.ignore();
+    cin.ignore(); //Wait for user to press enter
     cin.get();
 
     //Clear the terminal
@@ -191,22 +199,21 @@ void removeProduct() {
     int idChoice = 0;
 
     cout << "Please enter ID: ";
-    cin >> menuChoice;
-    if(productID[idChoice] == 0){
+    cin >> idChoice; //Get the ID number from the user
+    if(productID[idChoice] == 0){ //Check if the ID number is valid
         do {
             cout << "Invalid ID number" << endl;
             cout << "Please enter an ID: ";
             cin >> idChoice;
         } while(productID[idChoice] == 0);
     }
-    productID[menuChoice] = 0;
-    productBrand[menuChoice] = "";
-    productName[menuChoice] = "";
-    productWholesalePrice[menuChoice] = 0;
-    productPrice[menuChoice] = 0;
-    productCount[menuChoice] = 0;
-
-    cout << "Remove success!" << endl;
+    //Empty the product information in all arrays
+    productID[idChoice] = 0;
+    productBrand[idChoice] = "";
+    productName[idChoice] = "";
+    productWholesalePrice[idChoice] = 0;
+    productPrice[idChoice] = 0;
+    productCount[idChoice] = 0;
 
     //Clear the terminal
     #ifdef _WIN32
@@ -219,6 +226,8 @@ void removeProduct() {
 //Display all products in the inventory
 void displayProducts() {
     cout << "ID\tBrand\t\tProduct\t\tCount" << endl;
+
+    //Display all products in stock
     for (int i = 0; i < 101; i++) {
         if(productID[i] != 0) {
             cout << productID[i] << "\t" << productBrand[i] << "\t\t" << productName[i] << "\t\t" << productCount[i] << endl;
@@ -226,7 +235,7 @@ void displayProducts() {
     }
 
     cout << "Press enter to EXIT" << endl;
-    cin.ignore();
+    cin.ignore(); //Wait for user to press enter
     cin.get();
 
     //Clear the terminal
@@ -240,10 +249,10 @@ void displayProducts() {
 //Main function
 int main() {
     do {
-        displayMenu();
+        displayMenu(); //Show the menu options
 
         cout << "Enter choice: ";
-        cin >> menuChoice;
+        cin >> menuChoice; //Get the menu choice from the user
 
         //Clear the terminal
         #ifdef _WIN32
@@ -252,7 +261,7 @@ int main() {
         system("clear") ;
         #endif
 
-        if(menuChoice > 9) {
+        if(menuChoice > 9) { //Check if the menu choice is valid
             do {
                 displayMenu();
                 cout << "Invalid choice!" << endl;
