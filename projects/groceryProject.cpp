@@ -53,6 +53,8 @@ void newProduct() {
     system("cls") ;
     #elif __APPLE__
     system("clear") ;
+    #elif __linux__
+    system("clear") ;
     #endif
 }
 
@@ -82,6 +84,8 @@ void updateWholesale() {
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
+    system("clear") ;
+    #elif __linux__
     system("clear") ;
     #endif
 }
@@ -113,6 +117,8 @@ void updateSale() {
     system("cls") ;
     #elif __APPLE__
     system("clear") ;
+    #elif __linux__
+    system("clear") ;
     #endif
 }
 
@@ -143,6 +149,8 @@ void updateCount() {
     system("cls") ;
     #elif __APPLE__
     system("clear") ;
+    #elif __linux__
+    system("clear") ;
     #endif
 }
 
@@ -167,6 +175,8 @@ void calculateTotal() {
     system("cls") ;
     #elif __APPLE__
     system("clear") ;
+    #elif __linux__
+    system("clear") ;
     #endif
 }
 
@@ -190,6 +200,8 @@ void checkLow() {
     #ifdef _WIN32
     system("cls") ;
     #elif __APPLE__
+    system("clear") ;
+    #elif __linux__
     system("clear") ;
     #endif
 }
@@ -220,6 +232,8 @@ void removeProduct() {
     system("cls") ;
     #elif __APPLE__
     system("clear") ;
+    #elif __linux__
+    system("clear") ;
     #endif
 }
 
@@ -243,6 +257,8 @@ void displayProducts() {
     system("cls") ;
     #elif __APPLE__
     system("clear") ;
+    #elif __linux__
+    system("clear") ;
     #endif
 }
 
@@ -259,6 +275,8 @@ int main() {
         system("cls") ;
         #elif __APPLE__
         system("clear") ;
+        #elif __linux__
+        system("clear") ;
         #endif
 
         if(menuChoice > 9) { //Check if the menu choice is valid
@@ -272,6 +290,8 @@ int main() {
                 #ifdef _WIN32
                 system("cls") ;
                 #elif __APPLE__
+                system("clear") ;
+                #elif __linux__
                 system("clear") ;
                 #endif
             } while(menuChoice > 9);
