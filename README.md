@@ -7,7 +7,7 @@ If you are an ECU student feel free to use my code for learning just don't copy 
 
 I welcome contributions to any of the code snippets or resources in this repository. Feel free to open issues for bugs or improvement suggestions, or submit pull requests with enhancements.
 
-Please follow the contribution guidelines outlined in [CONTRIBUTING.md](link-to-CONTRIBUTING.md) before making any contributions.
+Please follow the contribution guidelines outlined in [CONTRIBUTING.md]((https://github.com/JaxFitch/Code/blob/main/CONTRIBUTING.md)) before making any contributions.
 
 ## Contact
 
