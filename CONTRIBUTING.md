@@ -1,6 +1,6 @@
 1. **Introduction**
 
-    This document outlines the process for contributing to the college students repository.
+    This document outlines the process for contributing to this repository
 
 2. **Code of Conduct**
 
