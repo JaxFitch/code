@@ -11,6 +11,6 @@ Please follow the contribution guidelines outlined in [CONTRIBUTING.md](https://
 
 ## Contact
 
-You can reach me via email at [jacksonfitch@icloud.com](mailto:jacksonfitch@icloud.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/jackson-fitch-1a48a629b/)).
+You can reach me via email at [jacksonfitch@icloud.com](mailto:jacksonfitch@icloud.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/jackson-fitch-1a48a629b/).
 
 Happy coding! :rocket:
