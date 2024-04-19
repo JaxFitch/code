@@ -21,24 +21,24 @@
 
 5. **Style Guidelines**
 
-    Please follow the project's coding style and guidelines.
-
-6. **Testing**
+    Please follow the project's coding style and guidelines. You can find the style guidelines [here](https://github.com/JaxFitch/Code/blob/main/STYLE_GUIDELINES.md).
+   
+7. **Testing**
 
     Please make sure to test your code thoroughly before submitting a pull request.
 
-7. **Documentation**
+8. **Documentation**
 
     Please make sure to update any relevant documentation, including README files and API documentation.
 
-8. **Communication**
+9. **Communication**
 
     Please communicate with the project maintainers and other contributors through the project's communication channels.
 
-9. **Respect**
+10. **Respect**
 
     As a contributor, you are expected to show respect and kindness to other contributors and the project maintainers.
 
-10. **Thank You**
+11. **Thank You**
 
     Thank you for taking the time to contribute to the project! Your efforts are greatly appreciated.
