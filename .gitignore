@@ -49,12 +49,3 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Ignore all
-*
-
-# Unignore all with extensions
-!*.*
-
-# Unignore all dirs
-!*/
