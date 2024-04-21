@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>ecuLogo.png</file>
+    </qresource>
+    <qresource prefix="/classes"/>
+</RCC>

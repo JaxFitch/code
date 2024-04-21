@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>362</width>
+    <height>337</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="txtGrade">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>150</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>18</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Grade %:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inpGrade">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>160</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>16</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inpWeight">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>160</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>16</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtWeight">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>150</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>18</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Weight %:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnNext">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>131</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEnd">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>200</y>
+      <width>131</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>End</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtOut">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>18</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Final Grade %:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>250</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>16</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ecuLogo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>340</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtCredit">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>319</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>10</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Made By: Jackson Fitch</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnHistory">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>305</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>History</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="history">
+    <property name="geometry">
+     <rect>
+      <x>-5</x>
+      <y>1</y>
+      <width>371</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Highlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="166">
+          <red>253</red>
+          <green>200</green>
+          <blue>47</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Highlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="166">
+          <red>253</red>
+          <green>200</green>
+          <blue>47</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled/>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>18</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::DoubleClicked</set>
+    </property>
+    <property name="showDropIndicator" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="uniformItemSizes">
+     <bool>true</bool>
+    </property>
+    <property name="itemAlignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDelete">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>270</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBack">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>305</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>305</y>
+      <width>103</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Add New</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="txtName">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>18</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Class: </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inpName">
+    <property name="geometry">
+     <rect>
+      <x>112</x>
+      <y>30</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>16</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtCat">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>18</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Category:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inpCat">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>90</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>16</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtStoreWeight">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>18</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Weight %:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inpStoreWeight">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>150</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Menlo</family>
+      <pointsize>16</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>history</zorder>
+   <zorder>txtGrade</zorder>
+   <zorder>inpGrade</zorder>
+   <zorder>inpWeight</zorder>
+   <zorder>txtWeight</zorder>
+   <zorder>btnNext</zorder>
+   <zorder>btnEnd</zorder>
+   <zorder>txtOut</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>ecuLogo</zorder>
+   <zorder>txtCredit</zorder>
+   <zorder>btnHistory</zorder>
+   <zorder>btnDelete</zorder>
+   <zorder>btnBack</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>txtName</zorder>
+   <zorder>inpName</zorder>
+   <zorder>txtCat</zorder>
+   <zorder>inpCat</zorder>
+   <zorder>txtStoreWeight</zorder>
+   <zorder>inpStoreWeight</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
