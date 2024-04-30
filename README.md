@@ -1,7 +1,7 @@
 # JaxFitch's GitHub Repository
 
 Welcome to my GitHub repository! I'm a sophmore at East Carolina University majoring in Computer Science. Here you'll find various code snippets, personal projects, & class projects.
-If you are an ECU student feel free to use my code for learning just don't copy it. I have the files organized by class abbreviation and number (e.g. csci-1010).
+If you are an ECU student feel free to use my code for learning JIUST DON'T COPY IT. I have the files organized by class abbreviation and number (e.g. csci-1010).
 
 ## Contributing
 
