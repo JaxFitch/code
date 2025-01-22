@@ -11,6 +11,6 @@ Please follow the contribution guidelines outlined in [CONTRIBUTING.md](https://
 
 ## Contact
 
-You can reach me via email at [him@jacksonfitch.com](mailto:him@jacksonfitch.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/jackson-fitch-1a48a629b/).
+You can reach me via email at [fitchj23@students.ecu.edu](mailto:fitchj23@students.ecu.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/jackson-fitch).
 
 ### Happy coding!
