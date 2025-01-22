@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+/Users/jax/Library/CloudStorage/OneDrive-EastCarolinaUniversity/CSCI 2540/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
-2135503647.index
-1865797976.index
-997968504.index
