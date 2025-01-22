@@ -1,0 +1,17 @@
+package practice;
+
+import java.util.*;
+
+public class WelcomeMessage1 {
+	public static void main(String[] args){
+		
+		Scanner kbd = new Scanner(System.in);
+		String name;
+		
+		System.out.println("Enter your name: ");
+		name = kbd.nextLine();
+		
+		System.out.println(name);
+		
+	}
+}

@@ -1,0 +1,26 @@
+// Jackson Fitch
+
+package assg1_fitchj23;
+
+import java.util.Scanner;
+
+public class DigitReverse {
+	public static void main(String[] args) {
+
+		
+		
+		System.out.println("Please enter a non-negative integer (-1 to exit): ");
+		
+		System.out.println("Your number printed in reverse order is: ");
+		
+	}
+
+	public void digitExtractor(int num) {
+		
+		for(int i = 10000; i != 0; i/=10) {
+			System.out.println(num % i);
+		}
+				
+	}
+}
+

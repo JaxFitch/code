@@ -1,0 +1,23 @@
+// Jackson Fitch
+
+package assg1_fitchj23;
+
+import java.util.Scanner;
+
+public class DateChange {
+	public static void main(String[] args) {
+		
+		Scanner kbd = new Scanner(System.in);
+		String usDate;
+		String euDate;
+		
+		System.out.print("Enter a date in the form mon/day/year: ");
+		usDate = kbd.nextLine();
+		
+		euDate = usDate.substring(usDate.indexOf("/") + 1, usDate.lastIndexOf("/"));
+		euDate.concat(".");
+		
+		System.out.print(euDate);
+	}
+
+}

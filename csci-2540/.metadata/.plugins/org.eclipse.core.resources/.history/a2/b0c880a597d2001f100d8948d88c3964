@@ -1,0 +1,5 @@
+package test;
+
+public class WelcomeMessage {
+	System.out.println("Welcome to CSCI 2540!");
+}
