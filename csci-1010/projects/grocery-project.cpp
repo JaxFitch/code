@@ -93,7 +93,7 @@ void updateSale() {
 
     cout << "Please enter ID: ";
     cin >> idChoice; //Get the ID number from the user
-    if(productID[idChoice] == 0){ //Check if the ID number is valid
+    if(productID[idChoice] == 0) { //Check if the ID number is valid
         do {
             cout << "Invalid ID number" << endl;
             cout << "Please enter an ID: ";
@@ -278,7 +278,7 @@ int main() {
         }
 
         //Switch case for menu options
-        switch (menuChoice) {
+        switch(menuChoice) {
             case 1:
                 newProduct();
                 break;
