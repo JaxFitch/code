@@ -3,6 +3,7 @@
 .vscode/
 .vs
 .metadata/
+.settings/
 
 # Ignore build output directories
 /bin/
