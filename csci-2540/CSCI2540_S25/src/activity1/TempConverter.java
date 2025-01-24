@@ -8,6 +8,7 @@ public class TempConverter {
 		Scanner kbd = new Scanner(System.in);
 		int userCelcius;
 		int fahrenheit;
+		
 		System.out.print("A temperature in celcius: ");
 		userCelcius = kbd.nextInt();
 		
