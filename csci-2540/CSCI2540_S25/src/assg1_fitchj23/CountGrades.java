@@ -32,7 +32,7 @@ public class CountGrades {
 		System.out.println("The average grade is: " + averageGrade);
 		
 		// Find grades above average
-		System.out.print("The grades above the average: ");
+		System.out.print("The grades above the average: \n");
 		for (int i = 0; i < numberOfGrades; i++) {
 			if (grades[i] > averageGrade) {
 				System.out.println(grades[i]);	
