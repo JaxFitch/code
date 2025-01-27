@@ -1,0 +1,47 @@
+To create a meal plan for Jack, we'll first estimate his daily caloric needs using the Mifflin-St Jeor equation for men:
+
+\[ \text{BMR} = 10 \times \text{weight in kg} + 6.25 \times \text{height in cm} - 5 \times \text{age in years} + 5 \]
+
+Jack's weight in kilograms is approximately 88 kg (194 lbs / 2.205), and his height in centimeters is about 188 cm (74 inches x 2.54).
+
+\[ \text{BMR} = 10 \times 88 + 6.25 \times 188 - 5 \times 19 + 5 \]
+\[ \text{BMR} = 880 + 1175 - 95 + 5 \]
+\[ \text{BMR} = 1965 \]
+
+Since Jack has a moderate lifestyle, we'll multiply his BMR by an activity factor of 1.55 to estimate his total daily energy expenditure (TDEE):
+
+\[ \text{TDEE} = 1965 \times 1.55 \approx 3046 \]
+
+Jack needs approximately 3046 calories per day to maintain his weight. Here's a balanced meal plan to meet his caloric needs:
+
+### Breakfast (Approx. 700 Calories)
+- **Oatmeal Bowl**: 1 cup of cooked oats topped with 1 tablespoon of almond butter, 1 sliced banana, and a sprinkle of cinnamon.
+- **Scrambled Eggs**: 2 eggs scrambled with spinach and tomatoes.
+- **Beverage**: 1 cup of low-fat milk or a glass of orange juice.
+
+### Morning Snack (Approx. 200 Calories)
+- **Greek Yogurt**: 1 cup of plain Greek yogurt with a handful of mixed berries.
+- **Nuts**: A small handful (about 1 ounce) of almonds or walnuts.
+
+### Lunch (Approx. 800 Calories)
+- **Grilled Chicken Salad**: Mixed greens with 4 ounces of grilled chicken breast, cherry tomatoes, cucumber, avocado, and a vinaigrette dressing.
+- **Whole Grain Bread**: 2 slices of whole-grain bread or a whole-grain roll.
+- **Fruit**: 1 apple or a pear.
+
+### Afternoon Snack (Approx. 200 Calories)
+- **Hummus and Veggies**: 1/4 cup of hummus with sliced carrots, bell peppers, and celery sticks.
+- **Whole Grain Crackers**: A small serving of whole-grain crackers.
+
+### Dinner (Approx. 900 Calories)
+- **Salmon Fillet**: 5 ounces of baked or grilled salmon.
+- **Quinoa**: 1 cup of cooked quinoa.
+- **Steamed Vegetables**: A mix of broccoli, carrots, and green beans.
+- **Salad**: A side salad with mixed greens, cherry tomatoes, and a light dressing.
+
+### Evening Snack (Approx. 250 Calories)
+- **Smoothie**: A smoothie made with 1 cup of unsweetened almond milk, 1/2 cup of frozen berries, 1/2 banana, and a scoop of protein powder.
+
+### Hydration
+- Ensure Jack drinks plenty of water throughout the day, aiming for at least 8-10 cups.
+
+This meal plan provides a balanced distribution of macronutrients and includes a variety of foods to ensure Jack gets the necessary vitamins and minerals while maintaining his weight. Adjust portion sizes as needed based on Jack's specific hunger levels and activity changes.
