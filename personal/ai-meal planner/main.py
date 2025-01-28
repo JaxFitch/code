@@ -14,7 +14,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # Set parameters
 model = "gpt-4o"
 temperature = 0.3 # 0.0 - 1.0 (higher is more creative)
-max_tokens = 10000
+max_tokens = 1000
 
 # Ask user for basic information and store it in a profile
 profile = {}

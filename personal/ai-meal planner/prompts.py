@@ -1,14 +1,22 @@
 system_message = ""
 
-def generate_meal_plan(profile):
+def get_macros(profile):
     prompt = f"""
-    Generate a meal plan for {profile['name']} who is a {profile['age']} 
-    year old {profile['gender']} that weighs {profile['weight']} lbs and is 
-    {profile['height']} inches tall. They have a {profile['activity_level']} 
-    ifestyle and their goal is to {profile['goal']}. The meal plan should
-    include breakfast, lunch, dinner, and snacks. It should also show all calories
-    and macronutrients for each meal. 
+    You are a extremely accurate dietitian assistant. This is your clients profile: 
+    Name: {profile['name']}
+    Age: {profile['age']}
+    Gender: {profile['gender']}
+    Weight: {profile['weight']} lbs
+    Height: {profile['height']} inches
+    Activity Level: {profile['activity_level']}
+    Goal: {profile['goal']}
+    I want you to tell me the exact amount of calories and macronutrients for this person per day
+    and return them in a list format with no bullet points or numbers or dashes and no other text.
+    return the calories first then protein, carbs, and fats in that order seperated by one space and dont label them
+    but do add "g" to the end of the macros but not calories keep the protein high and the fats moderate and the carbs 
+    moderate. Make sure the totals add up to the amount of calories calculated for the user's goal.
     """
+
     return prompt
 
 def generate_grocery_list(mealPlan):
