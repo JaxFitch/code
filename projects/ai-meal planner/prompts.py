@@ -15,19 +15,41 @@ def get_macros(profile):
     return the calories first then protein, carbs, and fats in that order seperated by one space and dont label them
     but do add "g" to the end of the macros but not calories keep the protein high and the fats moderate and the carbs 
     moderate. Make sure the totals add up to the amount of calories calculated for the user's goal.
+    Follow this formatting but dont just copy this example:
+    2200 180g 220g 70g
     """
 
     return prompt
 
-def generate_grocery_list(mealPlan):
+def generate_breakfast(calories, protein, carbs, fats):
     prompt = f"""
-    Generate a grocery list for the following meal plan: {mealPlan}
-    """
-    return prompt
+    Generate a breakfast meal that fits within {calories} calories with {protein} of protein, {carbs} of carbs, and {fats} of fats.
+    Theses calories are the users total daily calories and the macros are the total daily macros. Only generate one meal. 
+    Only return the meal and ingredients with no extra wording and include the macros of each ingredient in the meal and the total 
+    macros of the meal. Keep in mind that they have to eat lunch and dinner and maybe some snacks so dont make it to big. Display in html format. 
+    Dont come up with a breakfast bowl everytime, use some creativity.
+    
+    Also make sure to have it in a list format like the example below but dont just copy this example:
 
-def changes(userChanges, mealPlan):
-    prompt = f"""
-    Make the following changes to this meal plan: {mealPlan}: 
-   {userChanges}
+    Title of meal:
+
+	•	Name of submeal
+			•	Ingredient 1: # calories, #g protein, #g carbs, #g fat
+			•	Ingredient 2: # calories, #g protein, #g carbs, #g fat
+			•	Ingredient 3: # calories, #g protein, #g carbs, #g fat
+	•	Name of submeal
+            •	Ingredient 1: # calories, #g protein, #g carbs, #g fat
+            •	Ingredient 2: # calories, #g protein, #g carbs, #g fat
+            •	Ingredient 3: # calories, #g protein, #g carbs, #g fat
+	•	Name of submeal
+            •	Ingredient 1: # calories, #g protein, #g carbs, #g fat
+            •	Ingredient 2: # calories, #g protein, #g carbs, #g fat
+            •	Ingredient 3: # calories, #g protein, #g carbs, #g fat
+
+Total Macros:
+	•	Total Calories: #
+	•	Total Protein: #g
+	•	Total Carbs: #g
+	•	Total Fat: #g
     """
     return prompt
