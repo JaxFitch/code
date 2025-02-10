@@ -2,11 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Network hyperparameters
-LEARNING_RATE = 0.01       # Controls how much we adjust weights each iteration
+LEARNING_RATE = 0.01      # Controls how much we adjust weights each iteration
                           # Lower values: more precise but slower learning
                           # Higher values: faster but may overshoot optimal weights
 
-ITERATIONS = 10000        # Total number of training cycles
+ITERATIONS = 10000       # Total number of training cycles
                          # Higher values allow more time to find optimal weights
                          # but increase training time
 
