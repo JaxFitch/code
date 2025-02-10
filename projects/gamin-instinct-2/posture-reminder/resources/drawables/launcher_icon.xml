@@ -1,0 +1,8 @@
+<drawable-list id="launcher_icons" xmlns="http://www.garmin.com/xml/connectiq">
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" dithering="none">
+        <palette>
+            <color>000000</color>
+            <color>FFFFFF</color>
+        </palette>
+    </bitmap>
+</drawable-list>

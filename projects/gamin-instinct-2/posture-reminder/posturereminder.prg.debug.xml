@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="1" lineNum="9" parent="globals/PostureReminderApp" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="1" lineNum="10" parent="globals/PostureReminderApp" pc="268435478" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="2" lineNum="16" parent="globals/PostureReminderApp" pc="268435518" symbol="onStart"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="2" lineNum="17" parent="globals/PostureReminderApp" pc="268435522" symbol="onStart"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="2" lineNum="18" parent="globals/PostureReminderApp" pc="268435556" symbol="onStart"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="3" lineNum="25" parent="globals/PostureReminderApp" pc="268435575" symbol="getInitialView"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="3" lineNum="26" parent="globals/PostureReminderApp" pc="268435577" symbol="getInitialView"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="4" lineNum="12" parent="globals/PostureReminderApp" pc="268435618" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="4" lineNum="13" parent="globals/PostureReminderApp" pc="268435620" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="5" lineNum="29" parent="globals/PostureReminderApp" pc="268435639" symbol="onBackgroundData"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="5" lineNum="31" parent="globals/PostureReminderApp" pc="268435643" symbol="onBackgroundData"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="5" lineNum="32" parent="globals/PostureReminderApp" pc="268435709" symbol="onBackgroundData"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="5" lineNum="35" parent="globals/PostureReminderApp" pc="268435736" symbol="onBackgroundData"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="5" lineNum="36" parent="globals/PostureReminderApp" pc="268435770" symbol="onBackgroundData"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="6" lineNum="21" parent="globals/PostureReminderApp" pc="268435789" symbol="onStop"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderApp.mc" id="6" lineNum="22" parent="globals/PostureReminderApp" pc="268435791" symbol="onStop"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderMenuDelegate.mc" id="7" lineNum="5" parent="globals/posture_reminderMenuDelegate" pc="268435808" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderMenuDelegate.mc" id="8" lineNum="11" parent="globals/posture_reminderMenuDelegate" pc="268435827" symbol="onMenuItem"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderMenuDelegate.mc" id="8" lineNum="12" parent="globals/posture_reminderMenuDelegate" pc="268435829" symbol="onMenuItem"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderMenuDelegate.mc" id="8" lineNum="13" parent="globals/posture_reminderMenuDelegate" pc="268435840" symbol="onMenuItem"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderMenuDelegate.mc" id="8" lineNum="14" parent="globals/posture_reminderMenuDelegate" pc="268435864" symbol="onMenuItem"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderMenuDelegate.mc" id="8" lineNum="15" parent="globals/posture_reminderMenuDelegate" pc="268435875" symbol="onMenuItem"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderMenuDelegate.mc" id="9" lineNum="7" parent="globals/posture_reminderMenuDelegate" pc="268435900" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderMenuDelegate.mc" id="9" lineNum="8" parent="globals/posture_reminderMenuDelegate" pc="268435902" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderApp.mc" id="10" lineNum="26" parent="globals" pc="268435921" symbol="getApp"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderApp.mc" id="10" lineNum="27" parent="globals" pc="268435931" symbol="getApp"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268435947" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderApp.mc" id="12" lineNum="5" parent="globals/posture_reminderApp" pc="268435971" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderApp.mc" id="13" lineNum="12" parent="globals/posture_reminderApp" pc="268435990" symbol="onStart"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderApp.mc" id="14" lineNum="20" parent="globals/posture_reminderApp" pc="268435993" symbol="getInitialView"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderApp.mc" id="14" lineNum="21" parent="globals/posture_reminderApp" pc="268435995" symbol="getInitialView"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderApp.mc" id="15" lineNum="7" parent="globals/posture_reminderApp" pc="268436070" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderApp.mc" id="15" lineNum="8" parent="globals/posture_reminderApp" pc="268436072" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderApp.mc" id="16" lineNum="16" parent="globals/posture_reminderApp" pc="268436091" symbol="onStop"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderView.mc" id="17" lineNum="4" parent="globals/posture_reminderView" pc="268436094" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderView.mc" id="19" lineNum="11" parent="globals/posture_reminderView" pc="268436113" symbol="onLayout"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderView.mc" id="19" lineNum="12" parent="globals/posture_reminderView" pc="268436115" symbol="onLayout"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderView.mc" id="20" lineNum="6" parent="globals/posture_reminderView" pc="268436157" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderView.mc" id="20" lineNum="7" parent="globals/posture_reminderView" pc="268436159" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderView.mc" id="22" lineNum="22" parent="globals/posture_reminderView" pc="268436178" symbol="onUpdate"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderView.mc" id="22" lineNum="24" parent="globals/posture_reminderView" pc="268436180" symbol="onUpdate"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="23" lineNum="4" parent="globals/PostureReminderView" pc="268436201" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="24" lineNum="5" parent="globals/PostureReminderView" pc="268436220" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="24" lineNum="6" parent="globals/PostureReminderView" pc="268436222" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="25" lineNum="9" parent="globals/PostureReminderView" pc="268436241" symbol="onUpdate"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="25" lineNum="10" parent="globals/PostureReminderView" pc="268436245" symbol="onUpdate"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="25" lineNum="11" parent="globals/PostureReminderView" pc="268436267" symbol="onUpdate"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="25" lineNum="12" parent="globals/PostureReminderView" pc="268436279" symbol="onUpdate"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="25" lineNum="14" parent="globals/PostureReminderView" pc="268436301" symbol="onUpdate"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="25" lineNum="15" parent="globals/PostureReminderView" pc="268436320" symbol="onUpdate"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/PostureReminderView.mc" id="25" lineNum="17" parent="globals/PostureReminderView" pc="268436339" symbol="onUpdate"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderDelegate.mc" id="26" lineNum="4" parent="globals/posture_reminderDelegate" pc="268436371" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderDelegate.mc" id="27" lineNum="10" parent="globals/posture_reminderDelegate" pc="268436390" symbol="onMenu"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderDelegate.mc" id="27" lineNum="11" parent="globals/posture_reminderDelegate" pc="268436392" symbol="onMenu"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderDelegate.mc" id="27" lineNum="12" parent="globals/posture_reminderDelegate" pc="268436477" symbol="onMenu"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderDelegate.mc" id="28" lineNum="6" parent="globals/posture_reminderDelegate" pc="268436480" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/source/posture-reminderDelegate.mc" id="28" lineNum="7" parent="globals/posture_reminderDelegate" pc="268436482" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="29" lineNum="20" parent="globals/Rez/Layouts" pc="268436501" symbol="MainLayout"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="29" lineNum="21" parent="globals/Rez/Layouts" pc="268436513" symbol="MainLayout"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="29" lineNum="23" parent="globals/Rez/Layouts" pc="268436644" symbol="MainLayout"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="29" lineNum="24" parent="globals/Rez/Layouts" pc="268436749" symbol="MainLayout"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="29" lineNum="26" parent="globals/Rez/Layouts" pc="268436789" symbol="MainLayout"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="30" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268436816" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="31" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268436835" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="31" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268436837" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="31" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268436855" symbol="initialize"/>
+<entry filename="/Users/jax/Documents/github-repos/code/projects/gamin-instinct-2/posture-reminder/gen/006-B3888-00/source/Rez.mcgen" id="31" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268436911" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="10" object="true" symbol="PostureReminderView"/>
+<entry id="14" object="true" symbol="posture_reminderView"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8389346" symbol="text"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry id="20" method="true" symbol="MainLayout"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="22" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="25" symbol="prompt"/>
+<entry field="true" id="19" symbol="id_monkey"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="27" symbol="item_2"/>
+<entry id="26" symbol="item_1"/>
+<entry id="17" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="13" object="true" symbol="posture_reminderMenuDelegate"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="9" object="true" symbol="PostureReminderApp"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8390170" method="true" symbol="onBackgroundData"/>
+<entry id="21" object="true" symbol="MainMenu"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="11" object="true" symbol="posture_reminderApp"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="18" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8390146" module="true" symbol="Background"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="15" symbol="&lt;globals/PostureReminderApp/&lt;&gt;REMINDER_INTERVAL&gt;"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry id="8389347" symbol="color"/>
+<entry id="16" module="true" symbol="Layouts"/>
+<entry id="8388636" module="true" symbol="Attention"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry id="12" object="true" symbol="posture_reminderDelegate"/>
+<entry field="true" id="24" symbol="menu_label_2"/>
+<entry field="true" id="23" symbol="menu_label_1"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435574" name="state" stackId="1" startPc="268435518"/>
+<entry endPc="268435573" name="nextTime" stackId="2" startPc="268435522"/>
+<entry arg="true" endPc="268435788" name="data" stackId="1" startPc="268435639"/>
+<entry endPc="268435787" name="nextTime" stackId="2" startPc="268435643"/>
+<entry arg="true" endPc="268435807" name="state" stackId="1" startPc="268435789"/>
+<entry arg="true" endPc="268435899" name="item" stackId="1" startPc="268435827"/>
+<entry arg="true" endPc="268436156" name="dc" stackId="1" startPc="268436113"/>
+<entry arg="true" endPc="268436200" name="dc" stackId="1" startPc="268436178"/>
+<entry arg="true" endPc="268436370" name="dc" stackId="1" startPc="268436241"/>
+<entry endPc="268436369" name="centerX" stackId="2" startPc="268436245"/>
+<entry endPc="268436369" name="centerY" stackId="3" startPc="268436245"/>
+<entry arg="true" endPc="268436815" name="dc" stackId="1" startPc="268436501"/>
+<entry endPc="268436815" name="rez_cmp_local_text_1904552421" stackId="2" startPc="268436513"/>
+<entry endPc="268436815" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436513"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="background" class="PostureReminderApp" module="globals" symbol="onBackgroundData"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="background" class="PostureReminderApp" module="globals" symbol="initialize"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+<annotationEntry annotation="background" class="PostureReminderApp" module="globals" symbol="onStart"/>
+<annotationEntry annotation="background" class="PostureReminderApp" module="globals" symbol="REMINDER_INTERVAL"/>
+<annotationEntry annotation="background" class="PostureReminderApp" module="globals" symbol="getInitialView"/>
+<annotationEntry annotation="background" class="PostureReminderApp" module="globals" symbol="onStop"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/PostureReminderApp" offset="190" parentId="globals" symbolId="PostureReminderApp" type="class"/>
+<dataEntry label="globals/posture_reminderMenuDelegate" offset="525" parentId="globals" symbolId="posture_reminderMenuDelegate" type="class"/>
+<dataEntry label="globals/Rez" offset="580" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/posture_reminderApp" offset="659" parentId="globals" symbolId="posture_reminderApp" type="class"/>
+<dataEntry label="globals/posture_reminderView" offset="730" parentId="globals" symbolId="posture_reminderView" type="class"/>
+<dataEntry label="globals/PostureReminderView" offset="809" parentId="globals" symbolId="PostureReminderView" type="class"/>
+<dataEntry label="globals/posture_reminderDelegate" offset="864" parentId="globals" symbolId="posture_reminderDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="919" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="966" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1005" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1044" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1075" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1138" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="1169" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435517" name="&lt;init&gt;" parent="PostureReminderApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435574" name="onStart" parent="PostureReminderApp" startPc="268435518">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435617" name="getInitialView" parent="PostureReminderApp" startPc="268435575">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435638" name="initialize" parent="PostureReminderApp" startPc="268435618">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435788" name="onBackgroundData" parent="PostureReminderApp" startPc="268435639">
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435807" name="onStop" parent="PostureReminderApp" startPc="268435789">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435826" name="&lt;init&gt;" parent="posture_reminderMenuDelegate" startPc="268435808">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435899" name="onMenuItem" parent="posture_reminderMenuDelegate" startPc="268435827">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435920" name="initialize" parent="posture_reminderMenuDelegate" startPc="268435900">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435946" name="getApp" startPc="268435921">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435970" name="&lt;init&gt;" parent="Rez" startPc="268435947">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435989" name="&lt;init&gt;" parent="posture_reminderApp" startPc="268435971">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435992" name="onStart" parent="posture_reminderApp" startPc="268435990">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436069" name="getInitialView" parent="posture_reminderApp" startPc="268435993">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436090" name="initialize" parent="posture_reminderApp" startPc="268436070">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436093" name="onStop" parent="posture_reminderApp" startPc="268436091">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436112" name="&lt;init&gt;" parent="posture_reminderView" startPc="268436094">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="posture_reminderView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436156" name="onLayout" parent="posture_reminderView" startPc="268436113">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436177" name="initialize" parent="posture_reminderView" startPc="268436157">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="posture_reminderView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436200" name="onUpdate" parent="posture_reminderView" startPc="268436178">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436219" name="&lt;init&gt;" parent="PostureReminderView" startPc="268436201">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436240" name="initialize" parent="PostureReminderView" startPc="268436220">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436370" name="onUpdate" parent="PostureReminderView" startPc="268436241">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436389" name="&lt;init&gt;" parent="posture_reminderDelegate" startPc="268436371">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436479" name="onMenu" parent="posture_reminderDelegate" startPc="268436390">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436500" name="initialize" parent="posture_reminderDelegate" startPc="268436480">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436815" name="MainLayout" parent="Layouts" startPc="268436501">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436834" name="&lt;init&gt;" parent="MainMenu" startPc="268436816">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436967" name="initialize" parent="MainMenu" startPc="268436835">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

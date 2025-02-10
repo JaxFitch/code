@@ -4,6 +4,7 @@
 .vs
 .metadata/
 .settings/
+*.code-workspace
 
 # Ignore build output directories
 /bin/

@@ -17,8 +17,8 @@ class posture_reminderApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new posture_reminderView(), new posture_reminderDelegate() ];
+    function getInitialView() as Array<Views or InputDelegates>? {
+        return [ new posture_reminderView(), new posture_reminderDelegate() ] as Array<Views or InputDelegates>;
     }
 
 }

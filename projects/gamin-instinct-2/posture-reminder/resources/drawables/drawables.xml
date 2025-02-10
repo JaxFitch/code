@@ -1,3 +1,27 @@
-<drawables>
-    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
-</drawables>
+<resources>
+    <drawables>
+        <!-- Basic black background for views -->
+        <drawable-list id="black_background">
+            <shape type="rectangle" color="Gfx.COLOR_BLACK" x="0" y="0" width="fill" height="fill" />
+        </drawable-list>
+
+        <!-- Checkmark for selections -->
+        <drawable-list id="checkmark">
+            <shape type="polygon" color="Gfx.COLOR_GREEN" points="[[25,15],[30,22],[45,5],[35,15],[30,20],[27,17]]" />
+        </drawable-list>
+
+        <!-- Navigation arrows -->
+        <drawable-list id="up_arrow">
+            <shape type="polygon" color="Gfx.COLOR_LT_GRAY" points="[[20,10],[30,5],[40,10]]" />
+        </drawable-list>
+
+        <drawable-list id="down_arrow">
+            <shape type="polygon" color="Gfx.COLOR_LT_GRAY" points="[[20,30],[30,35],[40,30]]" />
+        </drawable-list>
+
+        <!-- Progress indicator -->
+        <drawable-list id="progress_circle">
+            <shape type="circle" color="Gfx.COLOR_BLUE" x="center" y="center" radius="30" />
+        </drawable-list>
+    </drawables>
+</resources>
