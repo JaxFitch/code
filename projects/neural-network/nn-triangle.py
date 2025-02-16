@@ -1,5 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Network hyperparameters
 LEARNING_RATE = 0.01      # Controls how much we adjust weights each iteration
