@@ -1,0 +1,5 @@
+B10001,John Smith,M,12-30-1981,Mechanical Engineering
+B12345,Emily Johnson,F,10-15-1975,Computer Science
+B34218,David Baker,M,1-30-1985,Business Administration	
+G24510,Jane Doe,F,10-20-1990
+G33567,Riley Washington,M,2-2-1999,Computer Science
