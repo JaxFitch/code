@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		555406FD2D752FED00EA7A2F /* PBXContainerItemProxy */ = {
+		559C03572D780AC800ED1EE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 555406E22D752FEC00EA7A2F /* Project object */;
+			containerPortal = 559C033C2D780AC700ED1EE0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 555406E92D752FEC00EA7A2F;
+			remoteGlobalIDString = 559C03432D780AC700ED1EE0;
 			remoteInfo = lift3r;
 		};
-		555407072D752FED00EA7A2F /* PBXContainerItemProxy */ = {
+		559C03612D780AC800ED1EE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 555406E22D752FEC00EA7A2F /* Project object */;
+			containerPortal = 559C033C2D780AC700ED1EE0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 555406E92D752FEC00EA7A2F;
+			remoteGlobalIDString = 559C03432D780AC700ED1EE0;
 			remoteInfo = lift3r;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		555406EA2D752FEC00EA7A2F /* lift3r.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lift3r.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		555406FC2D752FED00EA7A2F /* lift3rTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lift3rTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		555407062D752FED00EA7A2F /* lift3rUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lift3rUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C03442D780AC700ED1EE0 /* lift3r.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lift3r.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C03562D780AC800ED1EE0 /* lift3rTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lift3rTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C03602D780AC800ED1EE0 /* lift3rUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lift3rUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		555406EC2D752FEC00EA7A2F /* lift3r */ = {
+		559C03462D780AC700ED1EE0 /* lift3r */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = lift3r;
 			sourceTree = "<group>";
 		};
-		555406FF2D752FED00EA7A2F /* lift3rTests */ = {
+		559C03592D780AC800ED1EE0 /* lift3rTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = lift3rTests;
 			sourceTree = "<group>";
 		};
-		555407092D752FED00EA7A2F /* lift3rUITests */ = {
+		559C03632D780AC800ED1EE0 /* lift3rUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = lift3rUITests;
 			sourceTree = "<group>";
@@ -48,21 +48,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		555406E72D752FEC00EA7A2F /* Frameworks */ = {
+		559C03412D780AC700ED1EE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		555406F92D752FED00EA7A2F /* Frameworks */ = {
+		559C03532D780AC800ED1EE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		555407032D752FED00EA7A2F /* Frameworks */ = {
+		559C035D2D780AC800ED1EE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		555406E12D752FEC00EA7A2F = {
+		559C033B2D780AC700ED1EE0 = {
 			isa = PBXGroup;
 			children = (
-				555406EC2D752FEC00EA7A2F /* lift3r */,
-				555406FF2D752FED00EA7A2F /* lift3rTests */,
-				555407092D752FED00EA7A2F /* lift3rUITests */,
-				555406EB2D752FEC00EA7A2F /* Products */,
+				559C03462D780AC700ED1EE0 /* lift3r */,
+				559C03592D780AC800ED1EE0 /* lift3rTests */,
+				559C03632D780AC800ED1EE0 /* lift3rUITests */,
+				559C03452D780AC700ED1EE0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		555406EB2D752FEC00EA7A2F /* Products */ = {
+		559C03452D780AC700ED1EE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				555406EA2D752FEC00EA7A2F /* lift3r.app */,
-				555406FC2D752FED00EA7A2F /* lift3rTests.xctest */,
-				555407062D752FED00EA7A2F /* lift3rUITests.xctest */,
+				559C03442D780AC700ED1EE0 /* lift3r.app */,
+				559C03562D780AC800ED1EE0 /* lift3rTests.xctest */,
+				559C03602D780AC800ED1EE0 /* lift3rUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		555406E92D752FEC00EA7A2F /* lift3r */ = {
+		559C03432D780AC700ED1EE0 /* lift3r */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555407102D752FED00EA7A2F /* Build configuration list for PBXNativeTarget "lift3r" */;
+			buildConfigurationList = 559C036A2D780AC800ED1EE0 /* Build configuration list for PBXNativeTarget "lift3r" */;
 			buildPhases = (
-				555406E62D752FEC00EA7A2F /* Sources */,
-				555406E72D752FEC00EA7A2F /* Frameworks */,
-				555406E82D752FEC00EA7A2F /* Resources */,
+				559C03402D780AC700ED1EE0 /* Sources */,
+				559C03412D780AC700ED1EE0 /* Frameworks */,
+				559C03422D780AC700ED1EE0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				555406EC2D752FEC00EA7A2F /* lift3r */,
+				559C03462D780AC700ED1EE0 /* lift3r */,
 			);
 			name = lift3r;
 			packageProductDependencies = (
 			);
 			productName = lift3r;
-			productReference = 555406EA2D752FEC00EA7A2F /* lift3r.app */;
+			productReference = 559C03442D780AC700ED1EE0 /* lift3r.app */;
 			productType = "com.apple.product-type.application";
 		};
-		555406FB2D752FED00EA7A2F /* lift3rTests */ = {
+		559C03552D780AC800ED1EE0 /* lift3rTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555407132D752FED00EA7A2F /* Build configuration list for PBXNativeTarget "lift3rTests" */;
+			buildConfigurationList = 559C036D2D780AC800ED1EE0 /* Build configuration list for PBXNativeTarget "lift3rTests" */;
 			buildPhases = (
-				555406F82D752FED00EA7A2F /* Sources */,
-				555406F92D752FED00EA7A2F /* Frameworks */,
-				555406FA2D752FED00EA7A2F /* Resources */,
+				559C03522D780AC800ED1EE0 /* Sources */,
+				559C03532D780AC800ED1EE0 /* Frameworks */,
+				559C03542D780AC800ED1EE0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				555406FE2D752FED00EA7A2F /* PBXTargetDependency */,
+				559C03582D780AC800ED1EE0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				555406FF2D752FED00EA7A2F /* lift3rTests */,
+				559C03592D780AC800ED1EE0 /* lift3rTests */,
 			);
 			name = lift3rTests;
 			packageProductDependencies = (
 			);
 			productName = lift3rTests;
-			productReference = 555406FC2D752FED00EA7A2F /* lift3rTests.xctest */;
+			productReference = 559C03562D780AC800ED1EE0 /* lift3rTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		555407052D752FED00EA7A2F /* lift3rUITests */ = {
+		559C035F2D780AC800ED1EE0 /* lift3rUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555407162D752FED00EA7A2F /* Build configuration list for PBXNativeTarget "lift3rUITests" */;
+			buildConfigurationList = 559C03702D780AC800ED1EE0 /* Build configuration list for PBXNativeTarget "lift3rUITests" */;
 			buildPhases = (
-				555407022D752FED00EA7A2F /* Sources */,
-				555407032D752FED00EA7A2F /* Frameworks */,
-				555407042D752FED00EA7A2F /* Resources */,
+				559C035C2D780AC800ED1EE0 /* Sources */,
+				559C035D2D780AC800ED1EE0 /* Frameworks */,
+				559C035E2D780AC800ED1EE0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				555407082D752FED00EA7A2F /* PBXTargetDependency */,
+				559C03622D780AC800ED1EE0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				555407092D752FED00EA7A2F /* lift3rUITests */,
+				559C03632D780AC800ED1EE0 /* lift3rUITests */,
 			);
 			name = lift3rUITests;
 			packageProductDependencies = (
 			);
 			productName = lift3rUITests;
-			productReference = 555407062D752FED00EA7A2F /* lift3rUITests.xctest */;
+			productReference = 559C03602D780AC800ED1EE0 /* lift3rUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		555406E22D752FEC00EA7A2F /* Project object */ = {
+		559C033C2D780AC700ED1EE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					555406E92D752FEC00EA7A2F = {
+					559C03432D780AC700ED1EE0 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					555406FB2D752FED00EA7A2F = {
+					559C03552D780AC800ED1EE0 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 555406E92D752FEC00EA7A2F;
+						TestTargetID = 559C03432D780AC700ED1EE0;
 					};
-					555407052D752FED00EA7A2F = {
+					559C035F2D780AC800ED1EE0 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 555406E92D752FEC00EA7A2F;
+						TestTargetID = 559C03432D780AC700ED1EE0;
 					};
 				};
 			};
-			buildConfigurationList = 555406E52D752FEC00EA7A2F /* Build configuration list for PBXProject "lift3r" */;
+			buildConfigurationList = 559C033F2D780AC700ED1EE0 /* Build configuration list for PBXProject "lift3r" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 555406E12D752FEC00EA7A2F;
+			mainGroup = 559C033B2D780AC700ED1EE0;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 555406EB2D752FEC00EA7A2F /* Products */;
+			productRefGroup = 559C03452D780AC700ED1EE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				555406E92D752FEC00EA7A2F /* lift3r */,
-				555406FB2D752FED00EA7A2F /* lift3rTests */,
-				555407052D752FED00EA7A2F /* lift3rUITests */,
+				559C03432D780AC700ED1EE0 /* lift3r */,
+				559C03552D780AC800ED1EE0 /* lift3rTests */,
+				559C035F2D780AC800ED1EE0 /* lift3rUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		555406E82D752FEC00EA7A2F /* Resources */ = {
+		559C03422D780AC700ED1EE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		555406FA2D752FED00EA7A2F /* Resources */ = {
+		559C03542D780AC800ED1EE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		555407042D752FED00EA7A2F /* Resources */ = {
+		559C035E2D780AC800ED1EE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		555406E62D752FEC00EA7A2F /* Sources */ = {
+		559C03402D780AC700ED1EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		555406F82D752FED00EA7A2F /* Sources */ = {
+		559C03522D780AC800ED1EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		555407022D752FED00EA7A2F /* Sources */ = {
+		559C035C2D780AC800ED1EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		555406FE2D752FED00EA7A2F /* PBXTargetDependency */ = {
+		559C03582D780AC800ED1EE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 555406E92D752FEC00EA7A2F /* lift3r */;
-			targetProxy = 555406FD2D752FED00EA7A2F /* PBXContainerItemProxy */;
+			target = 559C03432D780AC700ED1EE0 /* lift3r */;
+			targetProxy = 559C03572D780AC800ED1EE0 /* PBXContainerItemProxy */;
 		};
-		555407082D752FED00EA7A2F /* PBXTargetDependency */ = {
+		559C03622D780AC800ED1EE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 555406E92D752FEC00EA7A2F /* lift3r */;
-			targetProxy = 555407072D752FED00EA7A2F /* PBXContainerItemProxy */;
+			target = 559C03432D780AC700ED1EE0 /* lift3r */;
+			targetProxy = 559C03612D780AC800ED1EE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5554070E2D752FED00EA7A2F /* Debug */ = {
+		559C03682D780AC800ED1EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		5554070F2D752FED00EA7A2F /* Release */ = {
+		559C03692D780AC800ED1EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,12 +388,11 @@
 			};
 			name = Release;
 		};
-		555407112D752FED00EA7A2F /* Debug */ = {
+		559C036B2D780AC800ED1EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = lift3r/lift3r.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"lift3r/Preview Content\"";
@@ -403,8 +402,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,22 +411,17 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jax.lift3r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		555407122D752FED00EA7A2F /* Release */ = {
+		559C036C2D780AC800ED1EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = lift3r/lift3r.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"lift3r/Preview Content\"";
@@ -437,8 +431,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,22 +440,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jax.lift3r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		555407142D752FED00EA7A2F /* Debug */ = {
+		559C036E2D780AC800ED1EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZJBJW99C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -474,12 +465,13 @@
 			};
 			name = Debug;
 		};
-		555407152D752FED00EA7A2F /* Release */ = {
+		559C036F2D780AC800ED1EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZJBJW99C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -492,11 +484,12 @@
 			};
 			name = Release;
 		};
-		555407172D752FED00EA7A2F /* Debug */ = {
+		559C03712D780AC800ED1EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZJBJW99C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jax.lift3rUITests;
@@ -508,11 +501,12 @@
 			};
 			name = Debug;
 		};
-		555407182D752FED00EA7A2F /* Release */ = {
+		559C03722D780AC800ED1EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZJBJW99C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jax.lift3rUITests;
@@ -527,43 +521,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		555406E52D752FEC00EA7A2F /* Build configuration list for PBXProject "lift3r" */ = {
+		559C033F2D780AC700ED1EE0 /* Build configuration list for PBXProject "lift3r" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5554070E2D752FED00EA7A2F /* Debug */,
-				5554070F2D752FED00EA7A2F /* Release */,
+				559C03682D780AC800ED1EE0 /* Debug */,
+				559C03692D780AC800ED1EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555407102D752FED00EA7A2F /* Build configuration list for PBXNativeTarget "lift3r" */ = {
+		559C036A2D780AC800ED1EE0 /* Build configuration list for PBXNativeTarget "lift3r" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				555407112D752FED00EA7A2F /* Debug */,
-				555407122D752FED00EA7A2F /* Release */,
+				559C036B2D780AC800ED1EE0 /* Debug */,
+				559C036C2D780AC800ED1EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555407132D752FED00EA7A2F /* Build configuration list for PBXNativeTarget "lift3rTests" */ = {
+		559C036D2D780AC800ED1EE0 /* Build configuration list for PBXNativeTarget "lift3rTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				555407142D752FED00EA7A2F /* Debug */,
-				555407152D752FED00EA7A2F /* Release */,
+				559C036E2D780AC800ED1EE0 /* Debug */,
+				559C036F2D780AC800ED1EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555407162D752FED00EA7A2F /* Build configuration list for PBXNativeTarget "lift3rUITests" */ = {
+		559C03702D780AC800ED1EE0 /* Build configuration list for PBXNativeTarget "lift3rUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				555407172D752FED00EA7A2F /* Debug */,
-				555407182D752FED00EA7A2F /* Release */,
+				559C03712D780AC800ED1EE0 /* Debug */,
+				559C03722D780AC800ED1EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 555406E22D752FEC00EA7A2F /* Project object */;
+	rootObject = 559C033C2D780AC700ED1EE0 /* Project object */;
 }
