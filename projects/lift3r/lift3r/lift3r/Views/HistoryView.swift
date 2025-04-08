@@ -1,3 +1,11 @@
+//
+//  HistoryView.swift
+//  lift3r
+//
+//  Created by Jackson Fitch on 3/5/25.
+//
+
+
 import SwiftUI
 import SwiftData
 
@@ -48,7 +56,7 @@ struct HistoryView: View {
 
 // MARK: - Workout History Row
 struct WorkoutHistoryRow: View {
-    @ObservedObject var workout: Workout
+    var workout: Workout
     
     // Date formatter for readable dates
     private let dateFormatter: DateFormatter = {
@@ -98,7 +106,7 @@ struct WorkoutHistoryRow: View {
 // MARK: - Workout Detail View
 struct WorkoutDetailView: View {
     @Environment(\.modelContext) private var modelContext
-    @ObservedObject var workout: Workout
+    var workout: Workout
     
     @State private var isEditing = false
     @State private var showDeleteConfirmation = false
@@ -200,8 +208,8 @@ struct WorkoutDetailView: View {
 // MARK: - Workout Exercise Row
 struct WorkoutExerciseRow: View {
     @Environment(\.modelContext) private var modelContext
-    @ObservedObject var workout: Workout
-    @ObservedObject var exercise: Exercise
+    var workout: Workout
+    var exercise: Exercise
     @Binding var isEditing: Bool
     
     // Get sets for this specific exercise in this specific workout

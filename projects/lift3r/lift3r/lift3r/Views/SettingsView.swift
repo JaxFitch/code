@@ -1,3 +1,11 @@
+//
+//  SettingsView.swift
+//  lift3r
+//
+//  Created by Jackson Fitch on 3/5/25.
+//
+
+
 import SwiftUI
 import SwiftData
 

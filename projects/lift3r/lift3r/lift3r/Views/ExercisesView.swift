@@ -240,24 +240,23 @@ struct ExerciseDetailView: View {
     
     @State private var showingEditExercise = false
     
-    // Query all sets for this exercise
-    @Query private var allSets: [ExerciseSet]
+    // No Query property wrapper - we'll use the relationship directly
     
-    init(exercise: Exercise) {
-        self.exercise = exercise
-        // Create a filter predicate for the @Query
-        let predicate = #Predicate<ExerciseSet> { set in
-            set.exercise?.id == exercise.id
-        }
-        _allSets = Query(filter: predicate, sort: [SortDescriptor(\.date)])
-    }
-    
-    // Prepare data for the 1RM chart
+    // Prepare data for the 1RM chart directly from the relationship
     var oneRMData: [OneRMDataPoint] {
-        return allSets.compactMap { set in
+        guard let sets = exercise.sets else { return [] }
+        
+        return sets.compactMap { set in
             OneRMDataPoint(date: set.date, oneRM: set.oneRepMax)
         }
         .sorted { $0.date < $1.date }
+    }
+    
+    // Get the recent sets
+    var recentSets: [ExerciseSet] {
+        guard let sets = exercise.sets else { return [] }
+        let sortedSets = sets.sorted { $0.date > $1.date }
+        return Array(sortedSets.prefix(5))
     }
     
     var body: some View {
@@ -313,12 +312,12 @@ struct ExerciseDetailView: View {
                 .cornerRadius(10)
                 
                 // Recent sets section
-                if !allSets.isEmpty {
+                if !recentSets.isEmpty {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Recent Sets")
                             .font(.headline)
                         
-                        ForEach(Array(allSets.suffix(5).enumerated()), id: \.element.id) { index, set in
+                        ForEach(Array(recentSets.enumerated()), id: \.element.id) { index, set in
                             HStack {
                                 Text("\(index + 1).")
                                     .fontWeight(.bold)

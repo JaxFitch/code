@@ -1,3 +1,11 @@
+//
+//  HomeView.swift
+//  lift3r
+//
+//  Created by Jackson Fitch on 3/5/25.
+//
+
+
 import SwiftUI
 import SwiftData
 
@@ -86,7 +94,7 @@ struct WelcomeView: View {
             
             // Motivational quote
             VStack {
-                Text(""The only bad workout is the one that didn't happen."")
+                Text("The only bad workout is the one that didn't happen.")
                     .font(.headline)
                     .italic()
                     .multilineTextAlignment(.center)
@@ -117,7 +125,7 @@ struct WelcomeView: View {
 // MARK: - Active Workout View
 struct ActiveWorkoutView: View {
     @Environment(\.modelContext) private var modelContext
-    @ObservedObject var workout: Workout
+    var workout: Workout
     var onEnd: () -> Void
     
     @State private var showingExerciseSelector = false
@@ -265,8 +273,8 @@ struct ActiveWorkoutView: View {
 // MARK: - Exercise in Workout Row
 struct ExerciseInWorkoutRow: View {
     @Environment(\.modelContext) private var modelContext
-    @ObservedObject var workout: Workout
-    @ObservedObject var exercise: Exercise
+    var workout: Workout
+    var exercise: Exercise
     
     @State private var showingSetForm = false
     
@@ -325,7 +333,7 @@ struct ExerciseInWorkoutRow: View {
 struct ExerciseSelectorView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
-    @ObservedObject var workout: Workout
+    var workout: Workout
     
     @Query private var exercises: [Exercise]
     @State private var searchText = ""
@@ -408,7 +416,7 @@ struct ExerciseSelectorView: View {
 struct NewExerciseInWorkoutView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
-    @ObservedObject var workout: Workout
+    var workout: Workout
     var dismissParent: () -> Void
     
     @State private var name = ""
@@ -484,8 +492,8 @@ struct NewExerciseInWorkoutView: View {
 struct SetFormView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
-    @ObservedObject var workout: Workout
-    @ObservedObject var exercise: Exercise
+    var workout: Workout
+    var exercise: Exercise
     @Binding var isPresented: Bool
     
     @State private var reps: String = ""
