@@ -1,0 +1,5 @@
+NC	North Carolina
+NY	New York
+CA	California
+SC	South Carolina
+NJ	New Jersey

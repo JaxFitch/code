@@ -1,0 +1,8 @@
+CS101,Introduction to Computer Science,
+CS102,Data Structures,CS101
+CS201,Algorithms,CS102;CS101
+CS301,Operating Systems,CS201
+MATH101,Calculus I,
+MATH201,Calculus II,MATH101
+PHYS101,Physics I,
+PHYS201,Physics II,PHYS101;MATH101
